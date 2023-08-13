@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{84D6D82D-21FC-4D60-B933-FE1ECF7CA41B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "s3kira.AspNetCore", "src\s3kira.AspNetCore\s3kira.AspNetCore.csproj", "{89F924FC-04B8-45AC-84A6-AFB187890BC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89F924FC-04B8-45AC-84A6-AFB187890BC4} = {84D6D82D-21FC-4D60-B933-FE1ECF7CA41B}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89F924FC-04B8-45AC-84A6-AFB187890BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F924FC-04B8-45AC-84A6-AFB187890BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F924FC-04B8-45AC-84A6-AFB187890BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F924FC-04B8-45AC-84A6-AFB187890BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
