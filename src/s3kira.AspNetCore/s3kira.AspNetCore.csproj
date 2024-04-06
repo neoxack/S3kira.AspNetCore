@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
@@ -9,7 +9,7 @@
     <PropertyGroup>
         <Title>S3Kira.AspNetCore</Title>
         <Description>ASP.NET extensions for S3Kira S3 client</Description>
-        <Version>0.6.0</Version>
+        <Version>0.7.0</Version>
         <PackageId>Neoxack.S3Kira.AspNetCore</PackageId>
         <PackageTags>s3;performance</PackageTags>
         <PackageProjectUrl>https://github.com/neoxack/S3kira.AspNetCore</PackageProjectUrl>
@@ -25,7 +25,7 @@
 
     <ItemGroup>
       <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
-      <PackageReference Include="Neoxack.S3Kira" Version="0.6.0" />
+      <PackageReference Include="Neoxack.S3Kira" Version="0.7.0" />
     </ItemGroup>
 
 </Project>
